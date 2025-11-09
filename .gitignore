@@ -1,0 +1,26 @@
+# Binaries
+*.pyc
+.tox/
+.env/
+venv/
+.cache/
+~/
+build/
+dist/
+*.egg-info/
+.eggs/
+docs/_build/doctrees/
+.DS_Store
+
+# IDE related
+.idea/
+.vscode/
+
+# tests
+junit-result.xml
+htmlcov/
+.coverage
+__pycache__/
+.pytest_cache/
+README.html
+
