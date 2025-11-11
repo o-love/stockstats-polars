@@ -8,5 +8,5 @@ polars = { version = "0.52.0", features = ["lazy", "timezones", "ewma"] }
 
 [workspace]
 members = [
-    "python/stockstats-polars",
+    "python/stockstats-polars-py",
 ]
