@@ -1,0 +1,15 @@
+[package]
+name = "stockstats-polars-py"
+version = "0.1.0"
+edition = "2024"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "stockstats_polars"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.26", features = ["extension-module", "abi3-py313"]}
+pyo3-polars = "0.25.0"
+serde = { version = "1.0.228", features = ["derive"] }
+stockstats-polars = { path = "../.." }
