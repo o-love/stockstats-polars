@@ -1,4 +1,4 @@
-PY_PROJECT_DIR := python/stockstats-polars
+PY_PROJECT_DIR := python/stockstats-polars-py
 PY_MANIFEST := $(PY_PROJECT_DIR)/Cargo.toml
 UV := uv
 UV_RUN := $(UV) run --group dev

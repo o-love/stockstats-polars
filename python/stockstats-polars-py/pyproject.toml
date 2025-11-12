@@ -4,10 +4,13 @@ build-backend = "maturin"
 
 [project]
 name = "stockstats-polars"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Rust",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dynamic = ["version"]
+dependencies = [
+    "polars>=1.35.2",
+]
